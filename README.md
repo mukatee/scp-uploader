@@ -1,7 +1,7 @@
 # scp-uploader
 Upload filesets over SCP to remote hosts. For deploying code or anything else you might like.
 
-This is a Python script. To use download the [deploy.py]() and [file_data.py]() files.
+This is a Python script. To use download the [deploy.py](https://github.com/mukatee/scp-uploader/blob/master/src/deploy.py) and [file_data.py](https://github.com/mukatee/scp-uploader/blob/master/src/file_data.py) files.
 
 The possible deployment targets (the stuff to upload) are defined in a config.ini file.
 This file should be parseable with Python [ConfigParser](https://docs.python.org/3/library/configparser.html) class.
