@@ -7,13 +7,14 @@ The possible deployment targets (the stuff to upload) are defined in a config.in
 This file should be parseable with Python [ConfigParser](https://docs.python.org/3/library/configparser.html) class.
 
 Following attributes are supported:
--dst_ip: IP address (or DNS name) for remote host where to upload.
--dst_dir: Directory on remote host where to store uploaded files/dirs.
--src_dir: Directory on localhost from which to upload.
--file_prefix: If a file starts with this in src_dir, upload it.
--file_postfix: If a file ends with this in src_dir, upload it.
--file_names: Upload files with exactly these names.
--sections: For creating upload groups.
+
+- -dst_ip: IP address (or DNS name) for remote host where to upload.
+- -dst_dir: Directory on remote host where to store uploaded files/dirs.
+- -src_dir: Directory on localhost from which to upload.
+- -file_prefix: If a file starts with this in src_dir, upload it.
+- -file_postfix: If a file ends with this in src_dir, upload it.
+- -file_names: Upload files with exactly these names.
+- -sections: For creating upload groups.
 
 Additionally, SSH configuration information needs to be passed on command line parameters:
 
